@@ -1,0 +1,19 @@
+{
+  "name": "aoi-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^17.7.1"
+  },
+  "dependencies": {
+    "aoi.js": "^6.0.0-dev.a7eb1b7.1647566306"
+  }
+}
