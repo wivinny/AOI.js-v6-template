@@ -1,8 +1,8 @@
 const { AoiClient } = require("aoi.js");
 const bot = new AoiClient({
-    token: process.env.lynxToken,
+    token: "your token",
     intents: ["guilds", "guildMessages"],
-    prefix: ","
+    prefix: "your prefix"
 })
 require('./handler/status')(bot)
 require('./handler/events')(bot) 
