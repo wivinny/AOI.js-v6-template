@@ -1,7 +1,7 @@
 const { AoiClient } = require("aoi.js");
 const bot = new AoiClient({
     token: "your token",
-    intents: ["guilds", "guildMessages"],
+    intents: ["Guilds", "GuildMessages"],
     prefix: "your prefix"
 })
 require('./handler/status')(bot)
